@@ -73,7 +73,7 @@ Google Colab 권장 (무료 GPU).
 2. Kaggle API 토큰을 Colab Secrets(🔑)에 `KAGGLE_TOKEN` 으로 등록
 3. 위에서부터 순서대로 실행 (데이터 다운로드 → 정상 데이터 합치기 → 얼굴 크롭 → 학습 → 평가 → Grad-CAM)
 
-**주요 라이브러리**: TensorFlow / Keras, OpenCV, scikit-learn, Matplotlib
+**주요 라이브러리**: TensorFlow / Keras, OpenCV, scikit-learn, Matplotlib — 로컬 실행 시 `pip install -r requirements.txt`
 
 ---
 
